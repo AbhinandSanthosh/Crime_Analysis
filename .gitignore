@@ -1,0 +1,56 @@
+# --------------------------------------------
+# 📦 Python & Project Cache Files
+# --------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# --------------------------------------------
+# 🧠 Machine Learning Model Files
+# (Keep only svm_model.pkl; ignore other large model artifacts)
+# --------------------------------------------
+rf_model.pkl
+imputer.pkl
+encoders.pkl
+*.joblib
+
+# --------------------------------------------
+# 📊 Data Files
+# (Prevent large datasets or sensitive data from syncing)
+# --------------------------------------------
+crime_dataset_india.csv
+*.xlsx
+*.xls
+*.csv
+
+# --------------------------------------------
+# 🧪 Jupyter Notebook Checkpoints
+# --------------------------------------------
+.ipynb_checkpoints/
+
+# --------------------------------------------
+# 🌐 Streamlit and Environment Files
+# --------------------------------------------
+.streamlit/
+.env
+.vscode/
+.idea/
+
+# --------------------------------------------
+# 🔧 OS-Specific Files
+# --------------------------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+
+# --------------------------------------------
+# 📦 Virtual Environment Folders
+# --------------------------------------------
+venv/
+env/
